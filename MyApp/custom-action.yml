@@ -1,0 +1,13 @@
+name: My_action
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Mostrar mensaje"
+      run: echo "Este es un mensaje" 
